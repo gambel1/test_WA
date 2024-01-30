@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test_WA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./css/main.min.css" /> -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__box">
+          <a href="./index.html">
+            <img src="./images/logo.png" alt="icon logo" />
+          </a>
+          <div class="header__wrap">
+            <ul class="header__list">
+              <li class="header__item">
+                <img
+                  class="header__img"
+                  width="13"
+                  height="18"
+                  src="./images/location.png"
+                  alt="icon location"
+                />г. Харьков, ул. Мироносицкая 10
+              </li>
+              <li>
+                <a class="header__link" href="tel:+380999908100"
+                  ><img src="./images/phone.png" alt="icon phone" /> +38 (099)
+                  990-81-00
+                  <span class="header__element">(viber, telegram)</span></a
+                >
+              </li>
+              <li class="header__part">
+                <a href="#"
+                  ><img src="./images/facebook.png" alt="icon facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./images/instagram.png" alt="icon instagram"
+                /></a>
+              </li>
+            </ul>
+            <nav>
+              <ul class="header__nav">
+                <li class="header__nav--home">
+                  <a href="./index.html" class="header__nav--link"> Главна </a>
+                </li>
+                <li class="header__nav--tour">
+                  <button class="header__nav--button" type="button">
+                    Туры
+                  </button>
+                </li>
+                <li class="header__nav--select">
+                  <select>
+                    <option></option>
+                    <option>Горящие туры</option>
+                    <option>Поиск тура</option>
+                    <option>Туры по Украине</option>
+                    <option>Экскурсионные туры</option>
+                    <option>Weekend туры</option>
+                  </select>
+                </li>
+                <li class="header__nav--country">
+                  <a href="#" class="header__nav--link"> Страны </a>
+                </li>
+                <li class="header__nav--service">
+                  <button class="header__nav--button" type="button">
+                    Услуги
+                  </button>
+                </li>
+                <li class="header__nav--select__current">
+                  <select>
+                    <option></option>
+                    <option>Авиабилеты</option>
+                    <option>Визовая поддержка</option>
+                    <option>Индивидуальный трансфер</option>
+                    <option>Подарочные сертификаты</option>
+                    <option>Бронирование отелей и апартаментов</option>
+                    <option>Как забронировать и оплатить тур</option>
+                  </select>
+                </li>
+                <li class="header__nav--company">
+                  <a href="#" class="header__nav--link"> О компании </a>
+                </li>
+                <li class="header__nav--contact">
+                  <a href="#" class="header__nav--link"> Контакты </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__wrapper">
+        <h1 class="header__wrapper--title">
+          Лучшие предложения по солнечному Египту из Харькова
+        </h1>
+        <button class="header__wrapper--button" type="button">
+          Получить предложение
+        </button>
+      </div>
+      <div class="header__inner container">
+        <button type="button" class="header__inner--ellipse__current"></button>
+        <button type="button" class="header__inner--ellipse"></button>
+        <button type="button" class="header__inner--ellipse"></button>
+      </div>
+    </header>
+    <main>
+      <section class="tours">
+        <h2 class="visually-hidden">Туры</h2>
+        <ul class="tours__list container">
+          <li>
+            <button class="tours__list--button__current" type="button">
+              Горящие туры
+            </button>
+          </li>
+          <li>
+            <button class="tours__list--button" type="button">
+              Популярные туры
+            </button>
+          </li>
+        </ul>
+        <ul class="tours__wrapper">
+          <li class="tours__wrapper--list">
+            <div class="tours__wrapper--box">
+              <img
+                class="tours__wrapper--img"
+                src="./images/sea.jpg"
+                alt="sea"
+              />
+              <div>
+                <h3 class="tours__wrapper--title">
+                  8 марта в Cyrene Sharm hotel
+                </h3>
+                <p class="tours__wrapper--subtitle">
+                  (12.03.2018 — 19.03.2018)
+                </p>
+                <span class="tours__wrapper--border"></span>
+                <p class="tours__wrapper--subtitle__current">
+                  Перелёт, питание по системе all inclusive, трансфер
+                </p>
+                <div class="tours__wrapper--cart">
+                  <p class="tours__wrapper--item">
+                    1 259 грн
+                    <span class="tours__wrapper--item__el">/за 1 человека</span>
+                  </p>
+                  <button type="button" class="tours__wrapper--button">
+                    <img src="./images/arrow.png" alt="icon arrow" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tours__wrapper--box">
+              <img
+                class="tours__wrapper--img"
+                src="./images/sand.jpg"
+                alt="sand"
+              />
+              <div>
+                <h3 class="tours__wrapper--title">
+                  8 марта в Cyrene Sharm hotel
+                </h3>
+                <p class="tours__wrapper--subtitle">
+                  (12.03.2018 — 19.03.2018)
+                </p>
+                <span class="tours__wrapper--border"></span>
+                <p class="tours__wrapper--subtitle__current">
+                  Перелёт, питание по системе all <br />inclusive, трансфер<br />
+                </p>
+                <div class="tours__wrapper--cart">
+                  <p class="tours__wrapper--item">
+                    1 259 грн
+                    <span class="tours__wrapper--item__el">/за 1 человека</span>
+                  </p>
+                  <button type="button" class="tours__wrapper--button">
+                    <img src="./images/arrow.png" alt="icon arrow" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="tours__wrapper--box">
+              <img
+                class="tours__wrapper--img"
+                src="./images/sand.jpg"
+                alt="sand"
+              />
+              <div>
+                <h3 class="tours__wrapper--title">
+                  8 марта в Cyrene Sharm hotel
+                </h3>
+                <p class="tours__wrapper--subtitle">
+                  (12.03.2018 — 19.03.2018)
+                </p>
+                <span class="tours__wrapper--border"></span>
+                <p class="tours__wrapper--subtitle__current">
+                  Перелёт, питание по системе all <br />inclusive, трансфер<br />
+                </p>
+                <div class="tours__wrapper--cart">
+                  <p class="tours__wrapper--item">
+                    1 259 грн
+                    <span class="tours__wrapper--item__el">/за 1 человека</span>
+                  </p>
+                  <button type="button" class="tours__wrapper--button">
+                    <img src="./images/arrow.png" alt="icon arrow" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <h2 class="advantages__title">Наши преимущества</h2>
+          <div class="advantages__box">
+            <img src="./images/diving.jpg" alt="diving" />
+            <div class="advantages__wrap">
+              <p class="advantages__subtitle">
+                Очень долго подбирали разные варианты для того, чтобы
+                отпраздновать свой юбилейный День рождения в путешествии и не
+                могли определиться... Решили обратиться за помощью в
+                турагенство. Гульнара, выслушав все пожелания, предложила отдых
+                в Турции, отель Justiniano Club Park Conti 5* в Окурджалар возле
+                Аланьи. Мы очень благодарны ей за предложенный вариант!!!! Отдых
+                получился отличный! Отель с большой ухоженной территорией,
+                внимательный обслуживающий персонал. Отличный номер с видом на
+                море.
+              </p>
+              <span class="advantages__element"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offer">
+        <div class="container">
+          <h2 class="offer__title">Хочу предложение по туру</h2>
+          <ul class="offer__list">
+            <li class="offer__part">
+              Имя <span class="offer__part--name"> </span>
+            </li>
+            <li class="offer__part email">
+              Email <span class="offer__part--email"> </span>
+            </li>
+            <li class="offer__part">
+              Телефон <span class="offer__part--tel"> </span>
+            </li>
+            <li class="offer__part">
+              Страна тура <span class="offer__part--name"> </span>
+            </li>
+            <li>
+              <select class="offer__select">
+                <option></option>
+                <option>Горящие туры</option>
+                <option>Поиск тура</option>
+                <option>Туры по Украине</option>
+                <option>Экскурсионные туры</option>
+                <option>Weekend туры</option>
+              </select>
+            </li>
+            <li>
+              <button
+                class="offer__button header__wrapper--button"
+                type="button"
+              >
+                Получить предложение
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__box">
+          <div class="footer__logo">
+            <a class="footer__logo--link" href="./index.html">
+              <img src="./images/footerLogo.png" alt="Logo in footer" />
+            </a>
+
+            <p class="footer__logo--item">
+              <span class="footer__logo--item__top"></span>
+              Кураж тур агенство,которое предоставляет услуги по поиску,
+              оформлению и подбору туров для вас и ваших родных.
+              <span class="footer__logo--item__bottom"></span>
+            </p>
+            <p class="footer__logo--logo">
+              Создание сайта —<span class="footer__logo--logo__el"
+                ><img src="./images/logoWebakula.png" alt="logoWebakula" />
+
+                <img src="./images/elArrow.png" alt="Arrow" />
+              </span>
+            </p>
+          </div>
+
+          <nav>
+            <div>
+              <h2 class="footer__nav--title">Навигация</h2>
+              <ul class="footer__nav--list">
+                <li><a class="footer__nav--link" href="#">Главная</a></li>
+                <li><a class="footer__nav--link" href="#">О компани</a></li>
+                <li><a class="footer__nav--link" href="#">Туры</a></li>
+                <li><a class="footer__nav--link" href="#">Контакты</a></li>
+                <li><a class="footer__nav--link" href="#">Услуги</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <nav>
+            <div>
+              <h2 class="footer__nav--title">Поддержка</h2>
+              <ul class="footer__nav--list">
+                <li><a class="footer__nav--link" href="#">FAQ</a></li>
+                <li><a class="footer__nav--link" href="#">Блог</a></li>
+                <li>
+                  <a class="footer__nav--link" href="#">Обратная связь</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="footer__contacts">
+            <h2 class="footer__contacts--title footer__nav--title">Контакты</h2>
+            <ul class="footer__contacts--list header__list">
+              <li class="footer__contacts--item header__item">
+                <img
+                  class="footer__contacts--img header__img"
+                  width="13"
+                  height="18"
+                  src="./images/location.png"
+                  alt="icon location"
+                />г. Харьков, ул. Мироносицкая 10
+              </li>
+
+              <li>
+                <a
+                  class="footer__contacts--link header__link"
+                  href="tel:+380999908100"
+                  ><img
+                    src="./images/phone.png"
+                    alt="icon phone"
+                    style="margin-right: 4px"
+                  />
+                  +38 (099) 990-81-00
+                </a>
+                <span class="footer__contacts--element"></span>
+              </li>
+
+              <li class="footer__contacts--part header__part">
+                <a href="#"
+                  ><img src="./images/facebook.png" alt="icon facebook" />
+                </a>
+                <a href="#"
+                  ><img src="./images/instagram.png" alt="icon instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
