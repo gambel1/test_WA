@@ -1,0 +1,38 @@
+.header {
+  padding: 6px 0 26px 0;
+  background-image: url(../images/backgroundImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+}
+.header__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  margin-bottom: 233px;
+}
+
+// buttons
+.header__inner {
+  display: flex;
+  gap: 14px;
+}
+
+.header__inner--ellipse,
+.header__inner--ellipse__current {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: var(--color--white);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.header__inner--ellipse__current {
+  background-color: var(--color--yellow);
+}

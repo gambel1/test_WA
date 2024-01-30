@@ -1,0 +1,23 @@
+.header__list {
+  display: flex;
+}
+
+.header__part {
+  margin-right: 25px;
+}
+
+.header__item,
+.header__link {
+  display: flex;
+  margin-right: 36px;
+
+  color: #f3f3f3;
+}
+
+.header__img {
+  margin-right: 13px;
+}
+
+.header__element {
+  color: #eee;
+}

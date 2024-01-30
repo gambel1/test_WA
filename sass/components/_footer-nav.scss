@@ -1,0 +1,21 @@
+.footer__nav {
+  display: flex;
+}
+
+.footer__nav--title {
+  font-size: 18px;
+  font-weight: 400;
+
+  margin-bottom: 36px;
+  color: var(--color--white);
+}
+
+.footer__nav--list {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footer__nav--link {
+  color: var(--color--white);
+}

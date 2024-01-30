@@ -1,0 +1,19 @@
+.tours__list {
+  display: flex;
+  gap: 31px;
+  margin-bottom: 70px;
+}
+
+.tours__list--button,
+.tours__list--button__current {
+  font-family: var(--inter);
+  font-size: 20px;
+
+  background-color: var(--color--white);
+  border: none;
+  cursor: pointer;
+}
+
+.tours__list--button__current {
+  color: var(--color--yellow);
+}

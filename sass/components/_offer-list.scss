@@ -1,0 +1,53 @@
+.offer__list {
+  display: flex;
+  align-items: center;
+
+  padding: 44px 29px 39px 39px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.offer__part {
+  font-size: 18px;
+  color: #e6e6e6;
+}
+.offer__part:nth-child(1) {
+  margin-right: 30px;
+}
+.offer__part:nth-child(2) {
+  margin-right: 33px;
+}
+.offer__part:nth-child(3) {
+  margin-right: 55px;
+}
+
+.offer__part--name,
+.offer__part--email,
+.offer__part--tel {
+  display: block;
+  width: 138px;
+  margin-top: 4px;
+
+  border-top: 1px solid var(--color--white);
+  opacity: 0.4;
+}
+
+.offer__part--email {
+  width: 189px;
+}
+
+.offer__part--tel {
+  width: 152px;
+}
+
+.offer__select {
+  margin-right: 59px;
+
+  color: var(--color--white);
+  background-color: inherit;
+  opacity: 0.4;
+}
+
+.offer__select option {
+  background-color: var(--color--white);
+  color: var(--color--black);
+}

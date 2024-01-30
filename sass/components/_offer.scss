@@ -1,0 +1,15 @@
+.offer {
+  background-image: url(../images/group.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 42px 0;
+}
+
+.offer__title {
+  font-size: 24px;
+  font-weight: 400;
+
+  margin-bottom: 33px;
+  text-transform: uppercase;
+  color: var(--color--white);
+}

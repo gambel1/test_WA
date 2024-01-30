@@ -1,0 +1,22 @@
+.footer__contacts--list {
+  display: block;
+}
+
+.footer__contacts--item {
+  margin-bottom: 15px;
+}
+
+.footer__contacts--element {
+  display: block;
+  width: 242px;
+
+  margin-top: 21px;
+  margin-bottom: 20px;
+  border-top: 1px solid var(--color--light);
+  opacity: 0.4;
+}
+
+.footer__contacts--part {
+  display: flex;
+  gap: 25px;
+}

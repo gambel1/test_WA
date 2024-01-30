@@ -1,0 +1,52 @@
+.header__nav {
+  display: flex;
+  background-color: var(--color--yellow);
+  padding: 11px 22px 11px 25px;
+  border-radius: 5px;
+}
+
+.header__nav--home {
+  margin-right: 58px;
+}
+
+.header__nav--tour {
+  margin-right: 7px;
+}
+
+.header__nav--select {
+  margin-right: 51px;
+}
+
+.header__nav--country {
+  margin-right: 61px;
+}
+
+.header__nav--service {
+  margin-right: 5px;
+}
+
+.header__nav--select__current {
+  margin-right: 35px;
+}
+
+.header__nav--company {
+  margin-right: 40px;
+}
+
+.header__nav--button,
+.header__nav--link {
+  font-family: var(--inter);
+  font-size: 18px;
+
+  padding: 0;
+  color: var(--color--black);
+  background-color: var(--color--yellow);
+  border: none;
+  cursor: pointer;
+}
+
+select {
+  width: 15px;
+  background-color: var(--color--yellow);
+  border: none;
+}
